@@ -1,0 +1,108 @@
+<!DOCTYPE html> <!--Structure-->
+<html lang="en">
+    <!-- Contains details about the HTML file
+     which is not visible in the webpage -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Display of link shared in facebook-->
+        <meta property="og:title" content="I coded a game with Zuitt!" />
+        <meta property="og:description" content="This Game Development project is powered by Zuitt Coding Bootcamp" />
+        <meta property="og:site_name" content="I coded a game with Zuitt!" />
+        <meta property="og:image" content="[YOUR-LINK]/images/story-thumbnail-2048.jpg" />
+        <meta property="og:image:secure_url" content="[YOUR-LINK]" />
+
+        <link rel = "stylesheet" type = "text/css" href = "styles.css"/> <!--Connection/link to CSS-->
+
+        <title>2048</title>
+    </head>
+    <!-- Contains the actual content of the HTML file
+     that are visible in the webpage -->
+    <body>
+
+        <div class = "container">
+            <h1>2048</h1> <!--Paired tag-->
+            <h2>Created by: Arvin Jay Tadina</h2>
+            <hr id = "top-line"> <!--Self closing tag or Input-->
+            <div class = "header-container">
+                <div class = "score-container">
+                    
+                    <div class = "score-label">
+                        Score:
+                    </div>
+                    <div id = "score">
+                        0
+                    </div>
+                </div>
+                <div class = "share-button-container">
+                    <div class = "share-label">
+                        Share:
+                    </div>
+                    <div class = "share-icon">
+                        <!--Anchor tag for adding a specific hyperlink, but also applicable to other elements-->
+                        <a href = "https://www.facebook.com/sharer/sharer.php?u=[deployment-link]" target = "_blank">
+                            <img src = "./images/share_2048-fb.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--id - A unique identifier to an element.-->
+            <div id="board"></div>
+        </div>
+
+        <footer>
+            <!-- Website -->
+             <a href = "https://zuitt.co/?referral=2402-org-ali" target = "_blank">
+                <i class="fa-solid fa-globe"></i>
+             </a>
+             <!-- Facebook -->
+             <a href = "https://www.facebook.com/zuitttechcareer" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+             </a>
+             <!-- X -->
+            <a href="https://x.com/zuittco" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+            </a>
+              <!-- Intstagram -->
+            <a href="https://www.instagram.com/zuitt_co/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+            </a>
+            <!-- Tiktok -->
+            <a href="https://www.tiktok.com/@zuittco" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <!-- Youtube -->
+             <a href = "https://www.youtube.com/@ZuittCo" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+             </a>
+        </footer>
+
+        <!-- Fontawesome Scripts -->
+        <script src="https://kit.fontawesome.com/eea951742f.js" crossorigin="anonymous"></script>
+
+        <script type = "text/javascript" src = "logic.js"></script>
+
+        <!-- <div id = "board">
+            <div class = "tile">[r0, c0]</div>
+            <div class="tile">[r0, c1]</div>
+            <div class="tile">[r0, c2]</div>
+            <div class="tile">[r0, c3]</div>
+
+            <div class="tile">[r1, c0]</div>
+            <div class="tile">[r1, c1]</div>
+            <div class="tile">[r1, c2]</div>
+            <div class="tile">[r1, c3]</div>
+
+            <div class="tile">[r2, c0]</div>
+            <div class="tile">[r2, c1]</div>
+            <div class="tile">[r2, c2]</div>
+            <div class="tile">[r2, c3]</div>
+
+            <div class="tile">[r3, c0]</div>
+            <div class="tile">[r3, c1]</div>
+            <div class="tile">[r3, c2]</div>
+            <div class="tile">[r3, c3]</div>
+        </div>  -->
+    </body>
+</html>
