@@ -7,26 +7,47 @@ CSS Selector:
 
 /*Root will overwrite any css styling in case of conflict*/
 :root {
-    --background-image-url-02: url('./images/01-zuitt_2.png');
-    --background-image-url-04: url('./images/02-zuitt_4.png');
-    --background-image-url-08: url('./images/03-zuitt_8.png');
-    --background-image-url-16: url('./images/04-zuitt_16.png');
-    --background-image-url-32: url('./images/05-zuitt_32.png');
-    --background-image-url-64: url('./images/06-zuitt_64.png');
-    --background-image-url-128: url('./images/07-zuitt_128.png');
-    --background-image-url-256: url('./images/08-zuitt_256.png');
-    --background-image-url-512: url('./images/09-zuitt_512.png');
-    --background-image-url-1024: url('./images/10-zuitt_1024.png');
-    --background-image-url-2048: url('./images/11-zuitt_2048.png');
-    --background-image-url-4096: url('./images/12-zuitt_4096.png');
-    --background-image-url-8192: url('./images/13-zuitt_8192.png');
+    --background-image-url-02: url('./images/MHA - 02.webp');
+    --background-image-url-04: url('./images/MHA - 04.webp');
+    --background-image-url-08: url('./images/MHA - 06.webp');
+    --background-image-url-16: url('./images/MHA - 08.webp');
+    --background-image-url-32: url('./images/MHA - 10.webp');
+    --background-image-url-64: url('./images/MHA - 12.webp');
+    --background-image-url-128: url('./images/MHA - 14.webp');
+    --background-image-url-256: url('./images/MHA - 16.webp');
+    --background-image-url-512: url('./images/MHA - 32.webp');
+    --background-image-url-1024: url('./images/MHA - 34.webp');
+    --background-image-url-2048: url('./images/MHA - 36.webp');
+    --background-image-url-4096: url('./images/MHA - 38.webp');
+    --background-image-url-8192: url('./images/MHA - 40.webp');
+    --background-image-url-bg1: url('./images/MHA - 40.webp');
 }
 
 body{
     /*List of options*/
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #0047ab;
+    background-color:blue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1{
+    color:white;
+    background-color:red;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+h2{
+    color: white;
+    background-color: red;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+.score-container, .score-label, .share-label{
+    color: white;
+    font-weight: bold;
 }
 
 hr{
@@ -279,8 +300,21 @@ footer{
         width: 25%;
         height: 25%;
     }
-    h1{
+    /* h1{
         font-size: 40px;
         font-weight: 700;
+        
     }
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        
+    } */
+    h1, h2{
+            margin-right: 1rem;
+            margin-left: 1rem;
+            font-size: 1.5rem;
+            color: white;
+            background-color: red;
+        }
 }
